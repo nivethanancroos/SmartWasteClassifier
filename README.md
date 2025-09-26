@@ -16,3 +16,21 @@ To implement a Convolutional Neural Network (CNN) model for image classification
 To evaluate the trained model’s performance using accuracy and loss metrics.
 
 To provide a simple and practical solution for waste categorization without using hardware.
+
+## ⚙️ Methodology  
+1. **Preprocessing**: image resizing, normalization, augmentation.  
+2. **Model**: CNN built with **Keras (TensorFlow backend)**.  
+3. **Training**:  
+   - Optimizer: Adam  
+   - Loss: Categorical Crossentropy  
+   - Metrics: Accuracy  
+4. **Evaluation**: accuracy/loss curves, confusion matrix.  
+
+---
+
+## 🛠️ Tools & Technologies  
+- Python 3.x  
+- TensorFlow / Keras  
+- NumPy, Pandas  
+- Matplotlib, Seaborn  
+- Google Colab / Jupyter Notebook  
